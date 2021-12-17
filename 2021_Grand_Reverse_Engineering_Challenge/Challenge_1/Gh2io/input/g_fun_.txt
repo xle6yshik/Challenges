@@ -1,0 +1,954 @@
+void FUN_0010d5d9(long *a18,int *a16,long *a19,long *a17)
+
+{
+  *a17 = *a17 + 1;
+  a18[*a16 + 1] = a19[*(int *)*a17] + a19[*(int *)(*a17 + 4)];
+  return;
+}
+
+
+void FUN_00100e46(int *a16,long *a17)
+
+{
+  *a16 = *a16 + 1;
+  *a17 = *a17 + 8;
+  return;
+}
+
+
+void FUN_00101f4b(long *a17)
+
+{
+  *a17 = *a17 + 1;
+  return;
+}
+
+
+void FUN_00101afe(long *a18,int *a16)
+
+{
+  *(undefined4 *)(a18 + *a16) = *(undefined4 *)(a18 + *a16);
+  return;
+}
+
+
+void FUN_0010d4cb(long *a18,int *a16,long *a19,long *a17)
+
+{
+  *a17 = *a17 + 1;
+  a18[*a16 + 1] = a19[*(int *)*a17];
+  a19[*(int *)(*a17 + 4)] = (long)*(int *)(a18 + *a16) + a18[*a16 + 1];
+  return;
+}
+
+
+void FUN_00100ce6(long *a18,int *a16,long *a19,long *a17)
+
+{
+  a18[*a16] = a19[*(int *)(*a17 + 8)];
+  a18[*a16 + 1] = (long)(&DAT_0030f0a0 + *(int *)(*a17 + 0xc));
+  return;
+}
+
+
+void FUN_0010127f(long *a20,long *a18,int *a16,long *a19,long *a17)
+
+{
+  a19[*(int *)(*a17 + 0x10)] = a18[*a16 + 1];
+  *(long *)a18[*a16] = a19[*(int *)(*a17 + 0x14)];
+  a19[*(int *)(*a17 + 0x18)] = (long)*(int *)(*a17 + 0x1c) + (long)a20;
+  *a16 = *a16 + -1;
+  return;
+}
+
+
+void FUN_0010d6c4(long *a17)
+
+{
+  *a17 = *a17 + 0x20;
+  return;
+}
+
+
+void FUN_0010d645(long *a18,int *a16,long *a17)
+
+{
+  *a17 = *a17 + 1;
+  a18[*a16] = *(long *)a18[*a16];
+  return;
+}
+
+
+void FUN_0010d2a3(long *a18,int *a16,long *a19,long *a17)
+
+{
+  *a17 = *a17 + 1;
+  a18[*a16 + 1] = *(long *)*a17;
+  a19[*(int *)(*a17 + 8)] = a18[*a16 + 1];
+  a19[*(int *)(*a17 + 0x10)] = a19[*(int *)(*a17 + 0x14)] * a19[*(int *)(*a17 + 0xc)];
+  return;
+}
+
+
+void FUN_00102124(long *a18,int *a16,long *a19,long *a17)
+
+{
+  a18[*a16 + 1] = a19[*(int *)(*a17 + 0x18)];
+  a19[*(int *)(*a17 + 0x24)] = *(long *)(*a17 + 0x1c);
+  a18[*a16 + 2] = a19[*(int *)(*a17 + 0x28)];
+  *a16 = *a16 + 2;
+  return;
+}
+
+
+void FUN_00101f2e(long *a17)
+
+{
+  *a17 = *a17 + 0x2c;
+  return;
+}
+
+
+void FUN_0010104a(long *a17)
+
+{
+  *a17 = *a17 + 1;
+  return;
+}
+
+
+void FUN_0010c85b(long *a18,int *a16,long *a19,long *a17)
+
+{
+  *(undefined4 *)(a19 + *(int *)*a17) = *(undefined4 *)(a18 + *a16);
+  return;
+}
+
+
+void FUN_00101dcb(int *a16,long *a17)
+
+{
+  *a16 = *a16 + -1;
+  *a17 = *a17 + 4;
+  return;
+}
+
+
+void FUN_001019b1(long *a18,int *a16,long *a19,long *a17)
+
+{
+  *a17 = *a17 + 1;
+  a19[*(int *)*a17] = *(long *)a18[*a16];
+  *a16 = *a16 + -1;
+  *a17 = *a17 + 4;
+  return;
+}
+
+
+void FUN_00100963(long *a18,int *a16,long *a17)
+
+{
+  *a17 = *a17 + 1;
+  *(uint *)(a18 + (*a16 + -1)) = (uint)(*(uint *)(a18 + (*a16 + -1)) < *(uint *)(a18 + *a16));
+  return;
+}
+
+
+void FUN_0010d0d1(int *a16)
+
+{
+  *a16 = *a16 + -1;
+  return;
+}
+
+
+void FUN_00101741(long *a18,int *a16,long *a19,long *a17)
+
+{
+  *a17 = *a17 + 1;
+  a18[*a16 + 1] = a19[*(int *)*a17];
+  a19[*(int *)(*a17 + 4)] = (long)(&DAT_0030f0a0 + *(int *)(*a17 + 8));
+  *(long *)a18[*a16 + 1] = a19[*(int *)(*a17 + 0xc)];
+  return;
+}
+
+
+void FUN_00101d26(long *a20,long *a18,int *a16,long *a19,long *a17)
+
+{
+  a18[*a16 + 1] = (long)(&DAT_0030f0a0 + *(int *)(*a17 + 0x10));
+  a19[*(int *)(*a17 + 0x14)] = a18[*a16 + 1];
+  a19[*(int *)(*a17 + 0x18)] = (long)*(int *)(*a17 + 0x1c) + (long)a20;
+  return;
+}
+
+
+void FUN_0010d377(long *a19,long *a17)
+
+{
+  a19[*(int *)(*a17 + 0x20)] = *(long *)(*a17 + 0x24);
+  a19[*(int *)(*a17 + 0x2c)] = *(long *)(*a17 + 0x30);
+  *a17 = *a17 + 0x38;
+  return;
+}
+
+
+void FUN_001016e1(long *a20,long *a18,int *a16,long *a17)
+
+{
+  *a17 = *a17 + 1;
+  a18[*a16 + 1] = (long)*(int *)*a17 + (long)a20;
+  *a16 = *a16 + 1;
+  return;
+}
+
+
+void FUN_001009c8(long *a17)
+
+{
+  *a17 = *a17 + 4;
+  return;
+}
+
+
+void FUN_0010cd62(long *a19,long *a17)
+
+{
+  *a17 = *a17 + 1;
+  *(undefined *)a19[*(int *)*a17] = *(undefined *)(a19 + *(int *)(*a17 + 4));
+  *a17 = *a17 + 8;
+  return;
+}
+
+
+void FUN_00102001(long *a18,int *a16,long *a19,long *a17)
+
+{
+  *a17 = *a17 + 1;
+  a18[*a16 + 1] = a19[*(int *)(*a17 + 4)] * a19[*(int *)*a17];
+  return;
+}
+
+
+void FUN_00101907(long *a18,int *a16,long *a19,long *a17)
+
+{
+  a19[*(int *)(*a17 + 0x10)] = *(long *)(*a17 + 8);
+  a18[*a16 + 2] = a19[*(int *)(*a17 + 0x14)];
+  return;
+}
+
+
+void FUN_00101687(long *a18,int *a16,long *a19,long *a17)
+
+{
+  a19[*(int *)(*a17 + 0x18)] = a18[*a16 + 2] + a18[*a16 + 1];
+  return;
+}
+
+
+void FUN_00101dfb(long *a18,int *a16,long *a19,long *a17)
+
+{
+  a18[*a16 + 1] = a19[*(int *)(*a17 + 0x1c)];
+  a18[*a16 + 1] = a19[*(int *)(*a17 + 0x20)] + (long)*(int *)(a18 + (*a16 + 1));
+  *a16 = *a16 + 1;
+  *a17 = *a17 + 0x24;
+  return;
+}
+
+
+void FUN_00101508(long *a18,int *a16,long *a19,long *a17)
+
+{
+  *a17 = *a17 + 1;
+  a19[*(int *)*a17] = a18[*a16];
+  a18[*a16] = *(long *)(*a17 + 4);
+  return;
+}
+
+
+void FUN_00101852(long *a18,int *a16,long *a19,long *a17)
+
+{
+  a19[*(int *)(*a17 + 0xc)] = a18[*a16];
+  a19[*(int *)(*a17 + 0x14)] = a19[*(int *)(*a17 + 0x18)] * a19[*(int *)(*a17 + 0x10)];
+  a18[*a16] = a19[*(int *)(*a17 + 0x1c)];
+  return;
+}
+
+
+void FUN_0010196d(long *a19,long *a17)
+
+{
+  a19[*(int *)(*a17 + 0x28)] = *(long *)(*a17 + 0x20);
+  *a17 = *a17 + 0x2c;
+  return;
+}
+
+
+void FUN_0010ccef(long *a18,int *a16,long *a19,long *a17)
+
+{
+  *a17 = *a17 + 1;
+  a18[*a16 + 1] = *(long *)*a17;
+  a19[*(int *)(*a17 + 8)] = a18[*a16 + 1];
+  return;
+}
+
+
+void FUN_00100c38(long *a18,int *a16,long *a19,long *a17)
+
+{
+  a18[*a16 + 1] = *(long *)(*a17 + 0xc);
+  a19[*(int *)(*a17 + 0x14)] = a18[*a16 + 1];
+  a19[*(int *)(*a17 + 0x1c)] = a19[*(int *)(*a17 + 0x20)] * a19[*(int *)(*a17 + 0x18)];
+  return;
+}
+
+
+void FUN_0010cbcb(long *a18,int *a16,long *a19,long *a17)
+
+{
+  a18[*a16 + 1] = a19[*(int *)(*a17 + 0x24)];
+  a19[*(int *)(*a17 + 0x30)] = *(long *)(*a17 + 0x28);
+  a18[*a16 + 1] = a18[*a16 + 1] + a19[*(int *)(*a17 + 0x34)];
+  return;
+}
+
+
+void FUN_00101efe(int *a16,long *a17)
+
+{
+  *a16 = *a16 + 1;
+  *a17 = *a17 + 0x38;
+  return;
+}
+
+
+void FUN_001015f4(long *a18,int *a16,long *a19,long *a17)
+
+{
+  *a17 = *a17 + 1;
+  a18[*a16 + 1] = a19[*(int *)*a17];
+  a19[*(int *)(*a17 + 4)] = (long)*(int *)(a18 + *a16) + a18[*a16 + 1];
+  return;
+}
+
+
+void FUN_0010d56a(long *a18,int *a16,long *a19,long *a17)
+
+{
+  a18[*a16] = a19[*(int *)(*a17 + 8)];
+  *a17 = *a17 + 0xc;
+  return;
+}
+
+
+void FUN_001017f3(long *a18,int *a16,long *a17)
+
+{
+  *a17 = *a17 + 1;
+  a18[*a16 + 1] = (long)(&DAT_0030f0a0 + *(int *)*a17);
+  *a16 = *a16 + 1;
+  return;
+}
+
+
+void FUN_00100f8a(long *a17)
+
+{
+  *a17 = *a17 + 4;
+  return;
+}
+
+
+void FUN_0010d251(long *a19,long *a17)
+
+{
+  *a17 = *a17 + 1;
+  a19[*(int *)*a17] = *(long *)(*a17 + 4);
+  *a17 = *a17 + 0xc;
+  return;
+}
+
+
+void FUN_00101f68(long *a17)
+
+{
+  *a17 = *a17 + 1;
+  return;
+}
+
+
+void FUN_0010d3de(long *a18,int *a16,long *a19,long *a17)
+
+{
+  a18[*a16 + 1] = *(long *)*a17;
+  a19[*(int *)(*a17 + 8)] = a18[*a16 + 1];
+  a19[*(int *)(*a17 + 0xc)] = *(long *)(*a17 + 0x10);
+  a19[*(int *)(*a17 + 0x1c)] = a19[*(int *)(*a17 + 0x20)] * a19[*(int *)(*a17 + 0x18)];
+  return;
+}
+
+
+void FUN_00101119(long *a18,int *a16,long *a19,long *a17)
+
+{
+  a18[*a16 + 1] = a19[*(int *)(*a17 + 0x24)];
+  a19[*(int *)(*a17 + 0x30)] = *(long *)(*a17 + 0x28);
+  return;
+}
+
+
+void FUN_00101ea4(long *a18,int *a16,long *a19,long *a17)
+
+{
+  a18[*a16 + 1] = a18[*a16 + 1] + a19[*(int *)(*a17 + 0x34)];
+  return;
+}
+
+
+void FUN_00100d72(long *a20,long *a18,int *a16,long *a19,long *a17)
+
+{
+  a19[*(int *)(*a17 + 0x38)] = (long)*(int *)(*a17 + 0x3c) + (long)a20;
+  a18[*a16 + 2] = a19[*(int *)(*a17 + 0x40)];
+  a19[*(int *)(*a17 + 0x44)] = (long)*(int *)(a18 + (*a16 + 1)) + a18[*a16 + 2];
+  return;
+}
+
+
+void FUN_0010cae2(long *a17)
+
+{
+  *a17 = *a17 + 0x48;
+  return;
+}
+
+
+void FUN_00101ba3(long *a18,int *a16,long *a19,long *a17)
+
+{
+  *a17 = *a17 + 1;
+  a19[*(int *)*a17] = a18[*a16];
+  return;
+}
+
+
+void FUN_001011f7(long *a20,long *a18,int *a16,long *a19,long *a17)
+
+{
+  a18[*a16] = (long)*(int *)(*a17 + 4) + (long)a20;
+  a19[*(int *)(*a17 + 8)] = a18[*a16];
+  a18[*a16] = *(long *)(*a17 + 0xc);
+  return;
+}
+
+
+void FUN_0010cc74(long *a17)
+
+{
+  *a17 = *a17 + 0x14;
+  return;
+}
+
+
+void FUN_00101572(long *a19,long *a17)
+
+{
+  *a17 = *a17 + 1;
+  a19[*(int *)*a17] = (ulong)a19[*(int *)(*a17 + 8)] % (ulong)a19[*(int *)(*a17 + 4)];
+  *a17 = *a17 + 0xc;
+  return;
+}
+
+
+void FUN_00101a23(long *a18,int *a16,long *a19,long *a17)
+
+{
+  *a17 = *a17 + 1;
+  a19[*(int *)*a17] = a19[*(int *)(*a17 + 4)] + a18[*a16];
+  *a16 = *a16 + -1;
+  *a17 = *a17 + 8;
+  return;
+}
+
+
+void FUN_0010cc91(long *a18,int *a16,long *a19,long *a17)
+
+{
+  *a17 = *a17 + 1;
+  *(undefined4 *)a18[*a16] = *(undefined4 *)(a19 + *(int *)*a17);
+  *a16 = *a16 + -1;
+  return;
+}
+
+
+void FUN_0010d5bc(long *a17)
+
+{
+  *a17 = *a17 + 4;
+  return;
+}
+
+
+void FUN_00101c1a(long *a19,long *a17)
+
+{
+  *a17 = *a17 + 1;
+  *(undefined4 *)(a19 + *(int *)*a17) = *(undefined4 *)(*a17 + 4);
+  *a17 = *a17 + 8;
+  return;
+}
+
+
+void FUN_00100a04(long *a18,int *a16,long *a19,long *a17)
+
+{
+  *a17 = *a17 + 1;
+  *(uint *)(a19 + *(int *)*a17) = *(uint *)(a18 + *a16) | *(uint *)(a19 + *(int *)(*a17 + 4));
+  *a16 = *a16 + -1;
+  *a17 = *a17 + 8;
+  return;
+}
+
+
+void FUN_00101f85(long *a18,int *a16,long *a19,long *a17)
+
+{
+  *a17 = *a17 + 1;
+  *(int *)(a19 + *(int *)*a17) = (int)a18[*a16];
+  return;
+}
+
+
+void FUN_00100fa7(int *a16,long *a17)
+
+{
+  *a16 = *a16 + -1;
+  *a17 = *a17 + 4;
+  return;
+}
+
+
+void FUN_00101aad(long *a18,int *a16,long *a19,long *a17)
+
+{
+  *a17 = *a17 + 1;
+  a18[*a16 + 1] = a19[*(int *)*a17];
+  return;
+}
+
+
+void FUN_00100886(long *a18,int *a16,long *a19,long *a17)
+
+{
+  a19[*(int *)(*a17 + 4)] = (long)*(int *)(a18 + *a16) + a18[*a16 + 1];
+  a18[*a16] = a19[*(int *)(*a17 + 8)];
+  a18[*a16 + 1] = (long)(&DAT_0030f0a0 + *(int *)(*a17 + 0xc));
+  a19[*(int *)(*a17 + 0x10)] = a18[*a16 + 1];
+  return;
+}
+
+
+void FUN_00101330(long *a20,long *a18,int *a16,long *a19,long *a17)
+
+{
+  *(long *)a18[*a16] = a19[*(int *)(*a17 + 0x14)];
+  a19[*(int *)(*a17 + 0x18)] = (long)*(int *)(*a17 + 0x1c) + (long)a20;
+  return;
+}
+
+
+void FUN_00101fd2(long *a18,int *a16,long *a17)
+
+{
+  a18[*a16] = *(long *)(*a17 + 0x20);
+  return;
+}
+
+
+void FUN_0010d06e(long *a18,int *a16,long *a19,long *a17)
+
+{
+  a19[*(int *)(*a17 + 0x28)] = a18[*a16];
+  a19[*(int *)(*a17 + 0x2c)] = *(long *)(*a17 + 0x30);
+  return;
+}
+
+
+void FUN_001020f4(int *a16,long *a17)
+
+{
+  *a16 = *a16 + -1;
+  *a17 = *a17 + 0x38;
+  return;
+}
+
+
+void FUN_00100fd7(long *a18,int *a16,long *a17)
+
+{
+  *a17 = *a17 + 1;
+  a18[*a16 + 1] = *(long *)*a17;
+  return;
+}
+
+
+void FUN_00100843(long *a18,int *a16,long *a19,long *a17)
+
+{
+  a19[*(int *)(*a17 + 8)] = a18[*a16 + 1];
+  return;
+}
+
+
+void FUN_00100b9f(long *a18,int *a16,long *a19,long *a17)
+
+{
+  a18[*a16 + 1] = a19[*(int *)(*a17 + 0x10)] * a19[*(int *)(*a17 + 0xc)];
+  return;
+}
+
+
+void FUN_0010c937(int *a16,long *a19,long *a17)
+
+{
+  a19[*(int *)(*a17 + 0x14)] = *(long *)(*a17 + 0x18);
+  *a16 = *a16 + 1;
+  *a17 = *a17 + 0x20;
+  return;
+}
+
+
+void FUN_0010d4ae(long *a17)
+
+{
+  *a17 = *a17 + 1;
+  return;
+}
+
+
+void FUN_001013a6(long *a18,int *a16,long *a19,long *a17)
+
+{
+  a18[*a16 + 1] = a19[*(int *)(*a17 + 4)] * a19[*(int *)*a17];
+  a19[*(int *)(*a17 + 0x10)] = *(long *)(*a17 + 8);
+  a18[*a16 + 2] = a19[*(int *)(*a17 + 0x14)];
+  a19[*(int *)(*a17 + 0x18)] = a18[*a16 + 2] + a18[*a16 + 1];
+  return;
+}
+
+
+void FUN_0010c98e(long *a18,int *a16,long *a19,long *a17)
+
+{
+  a18[*a16 + 1] = a19[*(int *)(*a17 + 0x1c)];
+  a18[*a16 + 1] = a19[*(int *)(*a17 + 0x20)] + (long)*(int *)(a18 + (*a16 + 1));
+  a18[*a16 + 2] = (long)(&DAT_0030f0a0 + *(int *)(*a17 + 0x24));
+  a19[*(int *)(*a17 + 0x28)] = a18[*a16 + 2];
+  return;
+}
+
+
+void FUN_00101493(long *a18,int *a16,long *a19,long *a17)
+
+{
+  *(long *)a18[*a16 + 1] = a19[*(int *)(*a17 + 0x2c)];
+  a18[*a16 + 1] = (long)(&DAT_0030f0a0 + *(int *)(*a17 + 0x30));
+  return;
+}
+
+
+void FUN_0010101a(int *a16,long *a17)
+
+{
+  *a16 = *a16 + 1;
+  *a17 = *a17 + 0x34;
+  return;
+}
+
+
+void FUN_0010206e(long *a18,int *a16,long *a19,long *a17)
+
+{
+  *a17 = *a17 + 1;
+  *(int *)(a19 + *(int *)(*a17 + 4)) = *(int *)(a19 + *(int *)*a17) + *(int *)(a18 + *a16);
+  *a16 = *a16 + -1;
+  *a17 = *a17 + 8;
+  return;
+}
+
+
+void FUN_0010ca71(long *a18,int *a16,long *a19,long *a17)
+
+{
+  *a17 = *a17 + 1;
+  *(uint *)(a18 + (*a16 + 1)) = (uint)((ulong)a19[*(int *)*a17] < (ulong)a19[*(int *)(*a17 + 4)]);
+  return;
+}
+
+
+void FUN_0010caff(int *a16,long *a17)
+
+{
+  *a16 = *a16 + 1;
+  *a17 = *a17 + 8;
+  return;
+}
+
+
+void FUN_00101b2d(long *a18,int *a16,long *a19,long *a17)
+
+{
+  *a17 = *a17 + 1;
+  *(uint *)(a18 + *a16) = (uint)(*(uint *)(a19 + *(int *)*a17) < *(uint *)(a18 + *a16));
+  *a17 = *a17 + 4;
+  return;
+}
+
+
+void FUN_00100810(int *ausrs,long *arslt,long *a19,long *a17)
+
+{
+  FUN_0010117f(ausrs,arslt,a19,a17);
+  return;
+}
+
+
+void FUN_0010117f(int *ausrs,long *arslt,long *a19,long *a17)
+
+{
+  if (*(int *)*a17 == 0) {
+    a19[*(int *)(*a17 + 4)] = (long)ausrs;
+  }
+  else {
+    if (*(int *)*a17 == 1) {
+      a19[*(int *)(*a17 + 4)] = (long)arslt;
+    }
+  }
+  *a17 = *a17 + 8;
+  return;
+}
+
+
+void FUN_0010c895(long *a18,int *a16,long *a19,long *a17)
+
+{
+  *a17 = *a17 + 1;
+  a18[*a16 + 1] = a19[*(int *)*a17];
+  a19[*(int *)(*a17 + 4)] = (long)*(int *)(a18 + *a16) + a18[*a16 + 1];
+  *a16 = *a16 + -1;
+  return;
+}
+
+
+void FUN_00100d55(long *a17)
+
+{
+  *a17 = *a17 + 8;
+  return;
+}
+
+
+void FUN_00101d09(long *a17)
+
+{
+  *a17 = *a17 + 1;
+  return;
+}
+
+
+void FUN_00101c6a(long *a18,int *a16,long *a19,long *a17)
+
+{
+  a18[*a16 + 1] = a19[*(int *)(*a17 + 4)] * a19[*(int *)*a17];
+  a19[*(int *)(*a17 + 0x10)] = *(long *)(*a17 + 8);
+  *a16 = *a16 + 1;
+  *a17 = *a17 + 0x14;
+  return;
+}
+
+
+void FUN_00100e7d(long *a18,int *a16,long *a17,long *vF50,long *vF48,long *vF40,long *vF74, long *vF38)
+
+{
+  *a17 = *a17 + 1;
+  *vF50 = a18[*a16];
+  *a16 = *a16 + -1;
+  *vF48 = *(long *)*a17;
+  *vF40 = *(long *)(*a17 + 8);
+  *(undefined4 *)vF74 = *(undefined4 *)(*a17 + 0x10);
+  *vF38 = *a17 + 0x14;
+  return;
+}
+
+
+void FUN_0010d19e(long *a17,long *vF50,long *vF48,long *vF40,long *vF74,long *vF38)
+
+{
+  if ((ulong)*vF50 < (ulong)*vF48) {
+    *a17 = *a17 + (long)*(int *)vF74;
+  }
+  else {
+    if ((ulong)*vF40 < (ulong)*vF50) {
+      *a17 = *a17 + (long)*(int *)vF74;
+    }
+    else {
+      *a17 = *a17 + (long)*(int *)((long)(((int)*vF50 - (int)*vF48) * 4) + *vF38);
+    }
+  }
+  return;
+}
+
+
+void FUN_0010cdc3(long *a17)
+
+{
+  *a17 = *a17 + 1;
+  return;
+}
+
+
+void FUN_0010cb2f(long *a18,int *a16,long *a17)
+
+{
+  if (*(int *)*a17 == 0) {
+    a18[*a16 + 1] = (long)&DAT_00320120;
+  }
+  else {
+    if (*(int *)*a17 == 1) {
+      a18[*a16 + 1] = (long)&DAT_003200e0;
+    }
+  }
+  *a16 = *a16 + 1;
+  *a17 = *a17 + 4;
+  return;
+}
+
+
+void FUN_00100bfe(long *a17)
+
+{
+  *a17 = *a17 + 1;
+  return;
+}
+
+
+void FUN_00100f1a(long *a19,long *a17)
+
+{
+  if (*(int *)(*a17 + 4) == 0) {
+    a19[*(int *)*a17] = (long)&DAT_00320120;
+  }
+  else {
+    if (*(int *)(*a17 + 4) == 1) {
+      a19[*(int *)*a17] = (long)&DAT_003200e0;
+    }
+  }
+  *a17 = *a17 + 8;
+  return;
+}
+
+
+void FUN_00101bfd(long *a17)
+
+{
+  *a17 = *a17 + 1;
+  return;
+}
+
+
+void FUN_001007aa(long *a18,int *a16,long *a17)
+
+{
+  if (*(int *)(a18 + *a16) == 0) {
+    *a17 = *a17 + 4;
+  }
+  else {
+    *a17 = *a17 + (long)*(int *)*a17;
+  }
+  *a16 = *a16 + -1;
+  return;
+}
+
+
+void FUN_00100c1b(long *a17)
+
+{
+  *a17 = *a17 + 1;
+  return;
+}
+
+
+void FUN_00100aa5(int *ausrs,long *arslt,long *a18,int *a16,long *a17)
+
+{
+  if (*(int *)*a17 == 0) {
+    a18[*a16 + 1] = (long)ausrs;
+  }
+  else {
+    if (*(int *)*a17 == 1) {
+      a18[*a16 + 1] = (long)arslt;
+    }
+  }
+  *a16 = *a16 + 1;
+  *a17 = *a17 + 4;
+  return;
+}
+
+
+void FUN_00100b82(long *a17)
+
+{
+  *a17 = *a17 + 1;
+  return;
+}
+
+
+void FUN_00100b28(long *a19,long *a17)
+
+{
+  if (*(int *)(a19 + *(int *)(*a17 + 4)) == 0) {
+    *a17 = *a17 + 8;
+  }
+  else {
+    *a17 = *a17 + (long)*(int *)*a17;
+  }
+  return;
+}
+
+
+void FUN_0010107c(long *a18,int *a16,long *a17,long *vF70,long *vF68,long *vF60,long *vF78,
+                        long *vF58)
+
+{
+  *a17 = *a17 + 1;
+  *vF70 = a18[*a16];
+  *a16 = *a16 + -1;
+  *vF68 = *(long *)*a17;
+  *vF60 = *(long *)(*a17 + 0xc);
+  *(undefined4 *)vF78 = *(undefined4 *)(*a17 + 8);
+  *vF58 = *a17 + 0x14;
+  return;
+}
+
+
+void FUN_0010d0eb(long *a17,long *vF50,long *vF48,long *vF40,long *vF74,long *vF38)
+
+{
+  if ((ulong)*vF50 < (ulong)*vF48) {
+     *a17 = *a17 + (long)*(int *)vF74;
+  }
+  else {
+     if ((ulong)*vF40 < (ulong)*vF50) {
+        *a17 = *a17 + (long)*(int *)vF74;
+     }
+     else {
+        *a17 = *a17 + (long)*(int *)((long)(((int)*vF50 - (int)*vF48) * 4) + *vF38);
+     }
+  }
+  return;
+}
+
