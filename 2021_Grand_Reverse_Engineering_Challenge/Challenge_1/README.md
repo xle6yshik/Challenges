@@ -14,3 +14,6 @@ the source code of the restored binary task code performs the logging of the exe
 the source code of the restored original program with tests and samples
 - Project [scn_1](scn_1)
 the source code of the program for finding numbers satisfying the specified conditions
+
+- Tool [Gh2io](Gh2io)
+the source code of the scripts that automate the execution of auxiliary tasks
