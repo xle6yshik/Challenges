@@ -1,7 +1,7 @@
 ### [Grand Reverse Engineering Challenge](https://grand-re-challenge.org/index.html)
 ____
 
-The [2021 Grand Reverse Engineering Challenge](2021_Grand_Reverse_Engineering_Challenge/README.md) runs in two rounds.
+The [2021 Grand Reverse Engineering Challenge](2021_Grand_Reverse_Engineering_Challenge) runs in two rounds.
 
 - Round 1 starts **May 21**
 - Round 2 starts **July 3**
