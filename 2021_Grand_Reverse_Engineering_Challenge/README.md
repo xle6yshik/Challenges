@@ -15,7 +15,7 @@ For each challenge we use the scale **LIGHT**, **MEDIUM**, **HEAVY** to give a r
 
 #### **[Round 1](https://grand-re-challenge.org/grand-re-challenge-round-1.zip)**
 
-- [X] [Challenge 1](2021_Grand_Reverse_Engineering_Challenge/Challenge_1) [EN](Challenge_1/sol_en.pdf) [RU](Challenge_1/sol_ru.pdf) **LIGHT EXTRACT X86 ARM**
+- [X] [Challenge 1](Challenge_1) [EN](Challenge_1/sol_en.pdf) [RU](Challenge_1/sol_ru.pdf) **LIGHT EXTRACT X86 ARM**
 *Challenge-1-x86_64-Linux.exe* and *Challenge-1-armv7-Linux.exe* read two unsigned 32-bit numbers in decimal form from standard input and print a number to standard output.
 A successful submission consists of two 32-bit numbers that, when read from standard input, cause the program to crash with a segmentation fault.
 The original program is about 600 lines of C, the obfuscated program about 21,000 lines.
