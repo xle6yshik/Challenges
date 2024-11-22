@@ -1,3 +1,8 @@
+### [Malware Research]
+____
+
+The [2024 Griffin RansomeWare Research] for research purposes only.
+
 ### [Grand Reverse Engineering Challenge](https://grand-re-challenge.org/index.html)
 ____
 
